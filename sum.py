@@ -63,39 +63,6 @@ assert median([2,4,6,8,10])==6
 assert median([1,2,3,4])==2.5
 print("Median : ", median([1,2,3,4,8]))
 
-'''
-if __name__ == '__main__':
-    print(calculateSum([])==0)
-    print(calculateSum([2,4,6,8,10])==30)
-    assert 0==0
-
-
-
-
-
-
-
-def calculateSum(list_data):
-    sum_calculateSum=0
-    multiply_calculateSum=1
-    avg_calculateSum=0
-    for i in list_data:
-
-        sum_calculateSum += i
-        multiply_calculateSum *= i
-
-    avg_calculateSum=sum_calculateSum/len(list_data)
-    return sum_calculateSum,multiply_calculateSum,avg_calculateSum
-input_number=[]
-for i in range(2):
-    input_number.append(int(input("กรุณาใส่ตัวเลข: ")))
-#input_number=[2,4,6,8,10,12]
-sum_calculateSum,multiply_calculateSum,avg_calculateSum=calculateSum(*input_number)
-print(sum_calculateSum)
-print(multiply_calculateSum)
-print(avg_calculateSum)   
-
-'''
 
 
 
