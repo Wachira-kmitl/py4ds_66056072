@@ -18,9 +18,9 @@ def test_area():
 
 
 def test_perimeter():
-    assert perimeter(10, 10) == 40
-    assert perimeter(0, 9999) == 19998
-    assert perimeter(5, 8) == 26
+    assert perimetero(10, 10) == 40
+    assert perimetero(0, 9999) == 19998
+    assert perimetero(5, 8) == 26
 
 
 def test_volume():
